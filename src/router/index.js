@@ -1,6 +1,12 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+import Compra from "../views/Compra.vue";
 import Home from "../views/Home.vue";
+import Mezcla from "../views/Mezcla.vue";
+import Produccion from "../views/Produccion.vue";
+import Mezclamastering from "../views/mezclamastering.vue";
+import Mezclamasteringproduccion from "../views/Mezclamasteringproduccion.vue";
+
 
 Vue.use(VueRouter);
 
@@ -11,13 +17,29 @@ const routes = [
     component: Home
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
+    path: "/compra",
+    name: "Compra",
+    component: Compra
+  },
+  {
+    path: "/mezcla",
+    name: "Mezcla",
+    component: Mezcla
+  },
+  { 
+    path: "/produccion",
+    name : "Produccion",
+    component: Produccion
+  },
+  { 
+    path: "/mezclamastering",
+    name: "Mezcla Mastering",
+    component: Mezclamastering
+  },
+  { 
+    path: "/mezclamasteringproduccion",
+    name: "Mezcla Mastering Produccion",
+    component: Mezclamasteringproduccion
   }
 ];
 

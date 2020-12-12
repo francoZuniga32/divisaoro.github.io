@@ -1,6 +1,8 @@
 <template>
   <div class="home container-fluid">
     <div class="cuerpo table-responsive">
+      <br>
+      <h1 class="text-center">Beats Store</h1>
       <table class="table table-borderless border">
         <tbody>
           <tr v-for="(pista,i) in divisa" :key="i">
@@ -20,16 +22,25 @@
             </td>
           </tr>
         </tbody>
-      </table> 
+      </table>
     </div>
+    <br>
+    <h1 class="text-center ">Servicios</h1>
+    <br>
+    <precios></precios>
+    <br>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+  import precios from '@/components/precios.vue';
 
 export default {
   name: "Home",
+  components:{ 
+    precios
+  },
   data(){ 
     return{ 
       divisa:[
