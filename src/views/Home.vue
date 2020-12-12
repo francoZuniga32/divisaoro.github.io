@@ -29,17 +29,20 @@
     <br>
     <precios></precios>
     <br>
+    <Social></Social>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-  import precios from '@/components/precios.vue';
+import precios from '@/components/precios.vue';
+import Social from '@/components/Social.vue';
 
 export default {
   name: "Home",
   components:{ 
-    precios
+    precios,
+    Social
   },
   data(){ 
     return{ 
