@@ -13,7 +13,7 @@
           </p>
         </div>
         <div class="card-footer">
-          <a v-bind:href="url" class="btn btn-lg btn-secondary btn-block">Encargar</a>
+          <router-link v-bind:to="url" class="btn btn-lg btn-secondary btn-block">Encargar</router-link>
         </div>
       </div>
     </div>
