@@ -18,7 +18,7 @@
         </div>
         <div class="container-fluid" id="beats">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
-            <div class="col-sm d-none d-md-block d-lg-block d-xl-block d-flex justify-content-center">
+            <div class="d-flex justify-content-center col-sm d-none d-md-block d-lg-block d-xl-block">
               <img src="/icon/beatmeker.png" alt="" width="70%">
             </div>
             <div class="col-sm">
@@ -52,8 +52,8 @@
         </div>
         <div class="container-fluid" id="beats">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
-            <div class="col-sm d-none d-md-block d-lg-block d-xl-block d-flex justify-content-center">
-              <img src="/icon/produccion.png" alt="" width="70%">
+            <div class="col-sm d-none d-md-block d-lg-block d-xl-block">
+              <div class="d-flex justify-content-center"><img src="/icon/produccion.png" alt="" width="70%"></div>
             </div>
             <div class="col-sm">
               <h1 class="text-center">
@@ -86,8 +86,8 @@
         </div>
         <div class="container-fluid" id="beats">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
-            <div class="col-sm d-none d-md-block d-lg-block d-xl-block d-flex justify-content-center">
-              <img src="/icon/mezclaYMasteringYProduccion.png" alt="" width="70%">
+            <div class="col-sm d-none d-md-block d-lg-block d-xl-block">
+              <div class="d-flex justify-content-center"><img src="/icon/mezclaYMasteringYProduccion.png" alt="" width="70%"></div>
             </div>
             <div class="col-sm">
               <h1 class="text-center">
