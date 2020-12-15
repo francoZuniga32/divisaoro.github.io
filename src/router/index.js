@@ -1,52 +1,44 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Compra from "../views/Compra.vue";
 import Home from "../views/Home.vue";
-import Mezcla from "../views/Mezcla.vue";
-import Produccion from "../views/Produccion.vue";
-import Mezclamastering from "../views/mezclamastering.vue";
-import Mezclamasteringproduccion from "../views/Mezclamasteringproduccion.vue";
-
+import Sobre from "../views/Sobre.vue";
+import Ecommerce from "../views/Ecommerce.vue";
+import Empresas from "../views/Empresas.vue";
+import Creadores from "../views/Creadores.vue";
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
-    path: "/",
-    name: "Home",
-    component: Home
-  },
-  {
-    path: "/compra",
-    name: "Compra",
-    component: Compra
-  },
-  {
-    path: "/mezcla",
-    name: "Mezcla",
-    component: Mezcla
-  },
-  { 
-    path: "/produccion",
-    name : "Produccion",
-    component: Produccion
-  },
-  { 
-    path: "/mezclamastering",
-    name: "Mezcla Mastering",
-    component: Mezclamastering
-  },
-  { 
-    path: "/mezclamasteringproduccion",
-    name: "Mezcla Mastering Produccion",
-    component: Mezclamasteringproduccion
-  }
+const routes = [{
+        path: "/",
+        name: "Home",
+        component: Home
+    },
+    {
+        path: "/sobre",
+        name: "Sobre",
+        component: Sobre
+    },
+    {
+        path: "/ecommerce",
+        name: "Ecommerce",
+        component: Ecommerce
+    },
+    {
+        path: "/empresas",
+        name: "Empresas",
+        component: Empresas
+    },
+    {
+        path: "/creadores",
+        name: "Creadores",
+        component: Creadores
+    }
 ];
 
 const router = new VueRouter({
-  mode: "history",
-  base: process.env.BASE_URL,
-  routes
+    mode: "history",
+    base: process.env.BASE_URL,
+    routes
 });
 
 export default router;

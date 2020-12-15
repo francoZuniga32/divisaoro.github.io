@@ -1,6 +1,9 @@
 <template>
-  <div class="row justify-content-center row-cols-1 row-cols-md-3">
-    <cardprecio v-for="(item ,i) in data" :key="i" :titulo="item.titulo" :precio="item.precio" :items="item.lista" :color="item.color" :url="item.link"></cardprecio>    
+  <div class="container-fluid">
+    <h1 class="text-center" id="servicios">Servicios</h1>
+    <div class="row justify-content-center row-cols-1 row-cols-md-3">
+      <cardprecio v-for="(item ,i) in data" :key="i" :titulo="item.titulo" :precio="item.precio" :items="item.lista" :color="item.color" :url="item.link"></cardprecio>    
+    </div>
   </div>
 </template>
 <script>

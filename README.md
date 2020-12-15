@@ -1,4 +1,4 @@
-# divisa-store
+divisa-store
 
 ## Project setup
 ```

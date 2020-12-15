@@ -1,43 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-html, body, #app, .home{ 
-				height: 100%;
+/** colores */
+
+html,
+body,
+main {
+    height: 100%;
+		background-color: #000;
+		color: #fff
 }
 
-h1, h2, h3, h4, h5, h6{ 
-
-	font-family: 'Bebas Neue', cursive;
+h1,h2,h3,h4,h5,h6 {
+		font-family: 'Bebas Neue', cursive;
+		color: #cacaca;
 }
 
-.card{
-	margin-top: 5%;
-	height: 560px;
+.container-fluid {
+    width: 95%;
+    min-height: 100%;
+    display: block;
 }
 
-.header { 
-	height:25%;
-	display: block;
-
-	font-family: 'Bebas Neue', cursive;
-	background: linear-gradient(-45deg, #3D5A80, #98C1D9, #293241, #E0FBFC);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+.fill {
+    width: auto;
+    min-height: 100%;
+    height: 100%;
 }
 
-.header h1{ 
-	padding-top: 3%;
+.margin-top {
+    margin-top: 10%;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+.card {
+    margin: 5%;
 }
 
+.img-filter {
+    transition: filter 0.5s;
+    filter: grayscale(100%);
+}
 
+.img-filter:hover {
+    filter: grayscale(0%);
+}
+
+.patrocinadores {
+    width: 30%;
+}
+
+.nav-link,
+a {
+    color: var(--color1);
+}
+
+footer {
+    position: static;
+    margin-bottom: 0;
+    left: 0;
+    height: 50%;
+}
+
+footer p {
+    margin: 5%;
+}
+
+.card {
+    height: 360px;
+}
+
+.puntos{ 
+	position: fixed;
+	overflow: hidden;
+}
+/* audio*/
+
+@media (max-width: 768px) {
+    .img-filter {
+        filter: grayscale(0%);
+    }
+}
