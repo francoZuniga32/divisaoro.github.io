@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 /** colores */
 
 html,
@@ -7,7 +7,9 @@ body,
 main {
     height: 100%;
 		background-color: #000;
-		color: #fff
+		color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -33,19 +35,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .card {
     margin: 5%;
-}
-
-.img-filter {
-    transition: filter 0.5s;
-    filter: grayscale(100%);
-}
-
-.img-filter:hover {
-    filter: grayscale(0%);
-}
-
-.patrocinadores {
-    width: 30%;
 }
 
 .nav-link,

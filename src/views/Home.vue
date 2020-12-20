@@ -4,11 +4,11 @@
           <div class="row margin-top align-items-center" id="advanced-store" style="margin-top: 10%">
             <div class="col-md ">
               <h1 class="text-center">DiVisa Oro | beats & prod</h1>
-              <p>venimos a dar soluciones a su empresa, poniendo a disposición productos adaptados a sus necesidades y actualizables, 
-              por lo que crecen junto con las necesidades de la empresa.</p>
               <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a nibh ut ipsum blandit dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc mauris nulla, ultrices et urna eu, volutpat tempor ligula.
+              </p>
               <p class="text-center">
-                  <router-link class="btn btn-primary align-middle" to="/sobre">Ver Mas</router-link>
+                  <router-link class="btn btn-outline-light" to="/sobre">Ver Mas</router-link>
               </p>
             </div>
             <div class="col-sm d-flex justify-content-center">
@@ -18,18 +18,15 @@
         </div>
         <div class="container-fluid" id="beats">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
-            <div class="d-flex justify-content-center col-sm d-none d-md-block d-lg-block d-xl-block">
-              <img src="/icon/beatmeker.png" alt="" width="70%">
+            <div class="col-sm d-none d-md-block d-lg-block d-xl-block">
+              <div class="d-flex justify-content-center"><img src="/icon/beatmeker.png" alt="" width="70%"></div>
             </div>
             <div class="col-sm">
               <h1 class="text-center">
-                 Beats 
+                 Beat Service 
               </h1>
               <p>
-                 El rol de los creadores de contenido, ahora son la puerta de nuevos productos y diferentes maneras de consumirlos. 
-                 Queremos ofrecer soluciones para ellos también. Es por eso que nos estamos embarcando en crear marketplace para ellos, 
-                 permitiendo que se profesionalicen. 
-                 Nuestra primer incursión es Cooking Beats para aquellos que ofrecen instrumentales.
+              Creación de beat personalizado a sus requisitos, adaptando la estructura para la finalidad que le des. Estaré en continuo contacto para poder tenerlo en el menor tiempo posible, Cualquier duda déjame saberlo.
               </p>
             </div>
             <div class="col-sm d-block d-sm-none d-flex justify-content-center">
@@ -40,10 +37,10 @@
         <div class="container-fluid" id="mezcla">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
             <div class="col-sm">
-              <h1 class="text-center">mezcla</h1>
-              <p>Nuestro equipo es pequeño pero apostamos al trabajo remoto, ya que vemos en esto ventajas competitivas.
-               Con la pandemia las empresas tuvieron que adaptarse al trabajo remoto, por lo cual una buena infraestructura informática y 
-               organizativa es esencial. Podemos darle nuestras recomendaciones sobre este aspecto.</p>
+              <h1 class="text-center">Mezcla</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a nibh ut ipsum blandit dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc mauris nulla, ultrices et urna eu, volutpat tempor ligula.
+              </p>
             </div>
             <div class="col-sm d-flex justify-content-center">
               <img src="/icon/mexcla.png" alt="" width="70%">
@@ -57,13 +54,10 @@
             </div>
             <div class="col-sm">
               <h1 class="text-center">
-                produccion 
+                Produccion 
               </h1>
               <p>
-                 El rol de los creadores de contenido, ahora son la puerta de nuevos productos y diferentes maneras de consumirlos. 
-                 Queremos ofrecer soluciones para ellos también. Es por eso que nos estamos embarcando en crear marketplace para ellos, 
-                 permitiendo que se profesionalicen. 
-                 Nuestra primer incursión es Cooking Beats para aquellos que ofrecen instrumentales.
+              Le dare foma a tu cacion, haciendola que suene acorde a el mensaje que quieres dar, y que sea competiva, teniendo la calidad adecuada. Estaremos en continuo contacto para poder ayudarte en el menor tiempo posible. Cualquier duda dejame saberlo.
               </p>
             </div>
             <div class="col-sm d-block d-sm-none d-flex justify-content-center">
@@ -74,10 +68,10 @@
         <div class="container-fluid" id="mezcla">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
             <div class="col-sm">
-              <h1 class="text-center">Mezcla & mastering</h1>
-              <p>Nuestro equipo es pequeño pero apostamos al trabajo remoto, ya que vemos en esto ventajas competitivas.
-               Con la pandemia las empresas tuvieron que adaptarse al trabajo remoto, por lo cual una buena infraestructura informática y 
-               organizativa es esencial. Podemos darle nuestras recomendaciones sobre este aspecto.</p>
+              <h1 class="text-center">Mezcla & Mastering</h1>
+              <p>
+              Depurare la produccion, logrando cohecion entre los instrumentos, ayudando a trasmitir el mensaje que quieres dar, ademas llevare a tu cancion al siguiente nivel, tener esa potencia y hacerse notar. Estaremos en continuo contacto para poder ayudarte en el menor tiempo posible. Cualquier duda dejame saberlo.
+              </p>
             </div>
             <div class="col-sm d-flex justify-content-center">
               <img src="/icon/mezclaYMastering.png" alt="" width="70%">
@@ -91,13 +85,10 @@
             </div>
             <div class="col-sm">
               <h1 class="text-center">
-                mezcla & mastering & producción
+                Mezcla & Mastering & Producción
               </h1>
               <p>
-                 El rol de los creadores de contenido, ahora son la puerta de nuevos productos y diferentes maneras de consumirlos. 
-                 Queremos ofrecer soluciones para ellos también. Es por eso que nos estamos embarcando en crear marketplace para ellos, 
-                 permitiendo que se profesionalicen. 
-                 Nuestra primer incursión es Cooking Beats para aquellos que ofrecen instrumentales.
+ Le dará forma a tu canción, haciendo que suene acorde a el mensaje que quieres dar. Será competitiva, teniendo la calidad adecuada, logrando cohesión entre los instrumentos, y la producción. Llevaré la canción al siguiente nivel, le daré potencia para hacerla destacar. Estaremos en continuo contacto para poder ayudarte en el menor tiempo posible. Cualquier duda déjame saberlo.
               </p>
             </div>
             <div class="col-sm d-block d-sm-none d-flex justify-content-center">
