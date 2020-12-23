@@ -4,9 +4,6 @@
           <div class="row margin-top align-items-center" id="advanced-store" style="margin-top: 10%">
             <div class="col-md ">
               <h1 class="text-center">DiVisa Oro | beats & prod</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a nibh ut ipsum blandit dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc mauris nulla, ultrices et urna eu, volutpat tempor ligula.
-              </p>
               <p class="text-center">
                   <router-link class="btn btn-outline-light" to="/sobre">Ver Mas</router-link>
               </p>
@@ -16,6 +13,7 @@
             </div>
           </div>
         </div>
+
         <div class="container-fluid" id="beats">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
             <div class="col-sm d-none d-md-block d-lg-block d-xl-block">
@@ -38,16 +36,14 @@
           <div class="row margin-top align-items-center" style="margin-top: 10%">
             <div class="col-sm">
               <h1 class="text-center">Mezcla</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a nibh ut ipsum blandit dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc mauris nulla, ultrices et urna eu, volutpat tempor ligula.
-              </p>
+              <p>Depurare la producción, logrando cohesión entre los instrumentos, ayudando a transmitir el mensaje que quieres dar. Estaremos en continuo contacto para poder ayudarte en el menor tiempo posible. Cualquier duda déjame saberlo.</p>
             </div>
             <div class="col-sm d-flex justify-content-center">
               <img src="/icon/mexcla.png" alt="" width="70%">
             </div>
           </div>
         </div>
-        <div class="container-fluid" id="beats">
+        <div class="container-fluid" id="produccion">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
             <div class="col-sm d-none d-md-block d-lg-block d-xl-block">
               <div class="d-flex justify-content-center"><img src="/icon/produccion.png" alt="" width="70%"></div>
@@ -65,7 +61,7 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid" id="mezcla">
+        <div class="container-fluid" id="mezcla-mastering">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
             <div class="col-sm">
               <h1 class="text-center">Mezcla & Mastering</h1>
@@ -78,7 +74,7 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid" id="beats">
+        <div class="container-fluid" id="mezcla-mastering-produccion">
           <div class="row margin-top align-items-center" style="margin-top: 10%">
             <div class="col-sm d-none d-md-block d-lg-block d-xl-block">
               <div class="d-flex justify-content-center"><img src="/icon/mezclaYMasteringYProduccion.png" alt="" width="70%"></div>

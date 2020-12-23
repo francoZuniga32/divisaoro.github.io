@@ -1,10 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Sobre from "../views/Sobre.vue";
-import Ecommerce from "../views/Ecommerce.vue";
-import Empresas from "../views/Empresas.vue";
-import Creadores from "../views/Creadores.vue";
+import Contacto from "../views/Contacto.vue";
 
 Vue.use(VueRouter);
 
@@ -14,24 +11,9 @@ const routes = [{
         component: Home
     },
     {
-        path: "/sobre",
-        name: "Sobre",
-        component: Sobre
-    },
-    {
-        path: "/ecommerce",
-        name: "Ecommerce",
-        component: Ecommerce
-    },
-    {
-        path: "/empresas",
-        name: "Empresas",
-        component: Empresas
-    },
-    {
-        path: "/creadores",
-        name: "Creadores",
-        component: Creadores
+        path: "/contacto",
+        name: "Contacto",
+        component: Contacto
     }
 ];
 
