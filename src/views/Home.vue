@@ -5,7 +5,7 @@
             <div class="col-md ">
               <h1 class="text-center">DiVisa Oro | beats & prod</h1>
               <p class="text-center">
-                  <router-link class="btn btn-outline-light" to="/sobre">Ver Mas</router-link>
+                  <a class="btn btn-outline-light" href="#beats">Ver Mas</a>
               </p>
             </div>
             <div class="col-sm d-flex justify-content-center">
@@ -92,6 +92,20 @@
             </div>
           </div>
         </div>
+        <div class="container-fluid" id="contacto">
+          <div class="row margin-top align-items-center" style="margin-top: 10%">
+            <div class="col-sm ">
+              <h1 class="text-center">
+                Contacto
+              </h1>
+            </div>
+          </div>
+          <div class="row aling-items-center">
+            <div class="col-sm d-flex justify-content-center">
+              <Contacto></Contacto>  
+            </div>
+          </div>
+        </div>
         <Footer></Footer>
     </main>
 </template>
@@ -99,11 +113,13 @@
 <script>
 // @ is an alias to /src
 import Footer from '@/components/Footer.vue';
+import Contacto from '@/components/Contacto.vue';
 
 export default {
   name: "Home",
   components:{ 
-    Footer
+    Footer,
+    Contacto
   }
 };
 </script>
